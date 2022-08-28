@@ -9,10 +9,10 @@
     <title>Bootstrap Visualization Dashboard</title>
 
     <!-- Boostrap Stylesheet -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" media="screen">
 
     <!-- Our own CSS stylesheet -->
-    <link rel="stylesheet" href="css/styles.css" media="screen">
+    <link rel="stylesheet" href="../assets/css/styles.css" media="screen">
 
   </head>
 
@@ -47,8 +47,8 @@
                   <li><a href="wind.html">Wind Speed</a></li>
                 </ul>
               </li>
-              <li><a href="comparison.html">Comparison</a></li>
-              <li><a href="data.html">Data</a></li>
+              <li><a href="../comparison.html">Comparison</a></li>
+              <li><a href="../data.html">Data</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div>
@@ -57,14 +57,59 @@
     <!-- End of navbar -->
 
     <!-- Start of container -->
-    
+    <div class="container-fluid">
+      <div class="row">
+      <!-- left side -->
+        <div class="col-sm-12 col-md-8 col-lg-8">
+          <div class="box"> 
+            <h3 class="description-header text-info">Wind Speed</h3>
+            <hr>
+            <div class="description-content">
+              <img  src="../assets/images/Fig4.png" alt="Wind Speed Graph" width="500">
+              <br>
+              <p>
+                The data seems to suggest higher wind speeds as a city moves further 
+                away from the equator. However, we  need more extreme points away from 
+                the equator to firmly conclude anything.   
+              </p>  
+            </div>       
+          </div> 
+        </div>
+     <!-- left side end -->
+     <!-- right side -->  
+          
+      <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="box">
+              <h4 class="imageNav-header">Visualizations</h4>
+              <hr>
+              <div class="row" style="padding-bottom: 30px;">
+                <div class="col-md-6">
+                  <a href="temp.html"><img class="imageNav-photo" src="../assets/images/Fig1.png" title="Lat vs. Max Temp" ></a>
+                </div>
+                <div class="col-md-6">
+                    <a href="humidity.html"><img class="imageNav-photo" src="../assets/images/Fig2.png" title="Lat vs. Humidity" ></a>
+                </div>
+              </div>
+              <div class="row" style="padding-bottom: 30px;">
+                <div class="col-md-6">
+                    <a href="cloudiness.html"><img class="imageNav-photo" src="../assets/images/Fig3.png" title="Lat vs. Cloudiness" ></a>
+                </div>
+                <div class="col-md-6">
+                    <a href="wind.html"><img class="imageNav-photo" src="../assets/images/Fig4.png" title="Lat vs. Wind Speed" ></a>
+                </div> 
+              </div>
+           </div>
+      </div>
+    <!-- right side end-->
+    </div>
+  </div>
     <!-- End of container -->
 
     <!-- Start of footer -->
     <footer class="footer navbar-fixed-bottom">
       <div class="two-toned-footer-color"></div>
       <p class="text-muted text-muted-footer text-center">
-        <b>&copy; Copyright Coding Bootcamp 2021</b>
+        <b>&copy; Copyright Data Science & Analytics Bootcamp 2022</b>
       </p>
     </footer>
     <!-- End of footer -->

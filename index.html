@@ -7,12 +7,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>Bootstrap Visualization Dashboard</title>
+    
+    <!--
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
 
+    -->
     <!-- Boostrap Stylesheet -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
 
     <!-- Our own CSS stylesheet -->
-    <link rel="stylesheet" href="css/styles.css" media="screen">
+    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
 
   </head>
 
@@ -26,9 +33,11 @@
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span class="sr-only">Toggle Navigation</span>
+              <!--
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
+              -->
             </button>
             <div class="col-xs-9 phone-nav">
               <a class="navbar-brand" href="#" id="logo">Latitude</a>
@@ -41,10 +50,10 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                 <li><a href="temp.html">Max Temperature</a></li>
-                  <li><a href="humidity.html">Humidity</a></li>
-                  <li><a href="cloudiness.html">Cloudiness</a></li>
-                  <li><a href="wind.html">Wind Speed</a></li>
+                 <li><a href="visualizations/temp.html">Max Temperature</a></li>
+                  <li><a href="visualizations/humidity.html">Humidity</a></li>
+                  <li><a href="visualizations/cloudiness.html">Cloudiness</a></li>
+                  <li><a href="visualizations/wind.html">Wind Speed</a></li>
                 </ul>
               </li>
               <li><a href="comparison.html">Comparison</a></li>
@@ -57,18 +66,67 @@
     <!-- End of navbar -->
 
     <!-- Start of container -->
-   
-    <!-- End of container -->
+    <div class="container-fluid">
+        <div class="row">
+        <!-- left side -->
+            <div class="col-sm-12 col-md-8 col-lg-8">
+                <div class="box">
+                    <h3 class="description-header text-info">Summary: Latitude vs. X</h3>
+                    <hr>
+                    <div class="description-content">
+                        <img id="description-image" class="img-fluid img-center" src="assets/images/Fig1.png" Title="Lat vs Temp">
+                        <p>In this project, we are supposed to visualize the weather of 500+ cities across the world of varying distance from the equator by utilizing the CitiPy library and the OpenWeatherMap API.</p>
+                        <p>After creating the dataset, Matplotlib was used to plot latitude against various factors such as max temperatures, wind speed, humidity and cloudiness in order to find possible correlations. This site provides the data used and
+                            the visualizations created, along with an explanation of trends or correlations.</p>
+                    </div>
+                </div>
+            </div>
+        <!-- left side end-->
+        <!-- right side -->
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="box">
+                    <h4 class="imageNav-header text-info">Visualizations</h4>
+                    <hr>
+                    <div class="row" style="padding-bottom: 30px;">
+                        <div class="col-md-6">
+                            <a href="visualizations/temp.html"><img class="imageNav-photo" src="assets/images/Fig1.png" title="Lat vs. Max Temp" ></a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="visualizations/humidity.html"><img class="imageNav-photo" src="assets/images/Fig2.png" title="Lat vs. Humidity" ></a>
+                        </div>
+                    </div>
+                    <div class="row" style="padding-bottom: 30px;">
+                        <div class="col-md-6">
+                            <a href="visualizations/cloudiness.html"><img class="imageNav-photo" src="assets/images/Fig3.png" title="Lat vs. Cloudiness" ></a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="visualizations/wind.html"><img class="imageNav-photo" src="assets/images/Fig4.png" title="Lat vs. Wind Speed" ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <!-- right side end -->
+        </div>
+    </div>
 
     <!-- Start of footer -->
     <footer class="footer navbar-fixed-bottom">
       <div class="two-toned-footer-color"></div>
       <p class="text-muted text-muted-footer text-center">
-        <b>&copy; Copyright Coding Bootcamp 2021</b>
+        <b>&copy; Copyright Data Science & Analytics Bootcamp 2022</b>
       </p>
     </footer>
     <!-- End of footer -->
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    
     <!-- jQuery CDN -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 

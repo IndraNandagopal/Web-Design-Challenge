@@ -41,7 +41,7 @@ body {
   padding-bottom: 5px;
 
   /* Positioning */
-  margin-left: 70px;
+  margin-left: 10px;
   font-family: Georgia, Times, "Times New Roman", serif;
 
   /* Typography */
@@ -107,7 +107,7 @@ body {
 /* ----DESCRIPTION START---- */
 .description-header {
   /* Positioning */
-  margin-bottom: 33px;
+  margin-bottom: 32px;
   font-family: Georgia, Times, "Times New Roman", serif;
 
   /* Typography */
@@ -121,7 +121,7 @@ body {
   padding: 30px;
 
   /* Positioning */
-  margin-top: 32px;
+  margin-top: 22px;
 
   /* Visual */
   background-color: #fff;
@@ -166,9 +166,36 @@ body {
 }
 
 /* ----DESCRIPTION END---- */
+/* Box Class */
+.box {
+  margin-top: 40px; 
+  margin-bottom: 42px; 
+  padding: 10px 20px 15px; 
+  color:black;
+  background-color: #fff; 
+
+}
+
+.thumbnail {
+  width:50%;
+}
+
+.text-left {
+  text-align: left;
+  color: rgb(20, 150, 150);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+
+.text-center {
+  color: rgb(20, 150, 150);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  text-align: center;
+}
 
 /* ----IMAGE NAV START---- */
-#imageNav-area {
+.imageNav-area {
   width: 100%;
 
   /* Box-model */
@@ -182,7 +209,7 @@ body {
 }
 
 .imageNav-header {
-  /* Positioning */
+  /* PositioninimageNav-headerg */
   margin-bottom: 15px;
   font-family: Georgia, Times, "Times New Roman", serif;
 
@@ -211,7 +238,7 @@ body {
 
 #images {
   /* Box-model */
-  padding-top: 15px;
+  padding-top: 5px;
 
   /* Typography */
   text-align: center;
