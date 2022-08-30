@@ -188,10 +188,11 @@ body {
 }
 
 .text-center {
+  text-align: center;
   color: rgb(20, 150, 150);
   font-family: 'Times New Roman', Times, serif;
   font-weight: bolder;
-  text-align: center;
+  
 }
 
 /* ----IMAGE NAV START---- */
