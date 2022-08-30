@@ -12,10 +12,12 @@ The website created with seven pages in total, including:
 
   * An explanation of the project
 
-  * Links to each visualizations page. There should be a sidebar containing preview images of each plot. Clicking an image will take the user to that visualization.
+  * Links to each visualizations page. There is a sidebar containing preview images of each plot. Clicking an image will take the user to that visualization.
 
+`Landing_Page_Large`
 ![Landing_page_Large](assets/images/Landing_page.png)
 
+`Landing_Page_Small`
 ![Landing_page_small](assets/images/Landing_small.png)
 
 * Four `visualization pages` stored in the `visualizations` folder, each with the following elements:
@@ -26,8 +28,10 @@ The website created with seven pages in total, including:
 
   * A paragraph describing the plot and its significance.
 
+`Visualizations_Large`
 ![Visualizations_lg](assets/images/Visualizations_lg.png)
 
+`Visualizations_Small`
 ![Visualizations_small](assets/images/Visualizations_small.png)
 
 * A `Comparisons` page that does the following:
@@ -38,16 +42,19 @@ The website created with seven pages in total, including:
 
     * The grid has two visualizations across medium and large screens, and it has one visualization across on extra-small or small screens.
 
+`Comparisons_Large`
 ![Comparison_lg](assets/images/Comparison_lg.png)
-
-![Comparison_small](assets/images/Comparison_small.png)
+`Comparisons_Small`
+![Comparisons_Small](assets/images/Comparison_small.png)
 
 * A `Data` page] that displays a responsive table containing the data used in the visualizations.
 
   * The table used is a Bootstrap table component. 
 
+`Data_Large`
 ![Data_lg](assets/images/Data_lg.png)
 
+`Data_Small`
 ![Data_small](assets/images/Data_small.png)  
   
 At the top of every page, the website has a navigation menu with the following elements:
