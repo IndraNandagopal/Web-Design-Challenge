@@ -66,3 +66,4 @@ At the top of every page, the website has a navigation menu with the following e
 * It provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.
 
 Finally, the website is deployed to GitHub  with the website working on a live, publicly accessible URL.
+[indranandagopal.github.io/Web-Design-Challenge/](https://indranandagopal.github.io/Web-Design-Challenge/)
